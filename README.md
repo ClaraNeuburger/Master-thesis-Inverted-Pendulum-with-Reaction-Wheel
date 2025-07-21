@@ -6,5 +6,5 @@ It consists of a rigid pendulum rod placed on a surface which will be stabilized
 ![](/Images/Full prototype with legend.png)
 
 <p align="center">
-  <img src="https://github.com/ClaraNeuburger/Master-thesis-Inverted-Pendulum-with-Reaction-Wheel/Images/Full prototype with legend.png" width="650px">
+  <img src="https://github.com/ClaraNeuburger/Master-thesis-Inverted-Pendulum-with-Reaction-Wheel/tree/main/Images/Full prototype with legend.png" width="650px">
 </p>
