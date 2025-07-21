@@ -1,2 +1,5 @@
-# Master-thesis-Inverted-Pendulum-with-Reaction-Wheel
-This is the Github repository that contains all the codes and CAD files used to complete my master thesis. You may find Arduino code for the control of the pendulum, Matlab and Simulink files for simulations and Fusion 360 files for the description of the prototype. 
+# Inverted Pendulum Actuated by a Reaction Wheel
+
+This github repository contains the codes (Arduino and Matlab) and CAD files used to create a 2D inverted pendulum actuated by a reaction wheel. 
+It consists of a rigid pendulum rod placed on a surface which will be stabilized in the upright position using a motor coupled to a wheel placed on top of the pendulum.
+
