@@ -4,4 +4,7 @@ This github repository contains the codes (Arduino and Matlab) and CAD files use
 It consists of a rigid pendulum rod placed on a surface which will be stabilized in the upright position using a motor coupled to a wheel placed on top of the pendulum.
 
 ![](/Images/Full prototype with legend.png)
-<img src="https://github.com/ClaraNeuburger/Master-thesis-Inverted-Pendulum-with-Reaction-Wheel/Images/Full prototype with legend.png/" width="900">
+
+<p align="center">
+  <img src="https://github.com/ClaraNeuburger/Master-thesis-Inverted-Pendulum-with-Reaction-Wheel/Images/Full prototype with legend.png" width="650px">
+</p>
