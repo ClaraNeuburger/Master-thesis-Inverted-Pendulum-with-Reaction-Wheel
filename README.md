@@ -3,4 +3,4 @@
 This github repository contains the codes (Arduino and Matlab) and CAD files used to create a 2D inverted pendulum actuated by a reaction wheel. 
 It consists of a rigid pendulum rod placed on a surface which will be stabilized in the upright position using a motor coupled to a wheel placed on top of the pendulum.
 
-![Full prototype with description](/../Images/Full prototype with legend.png)
+![Full prototype with description](/Images/Full prototype with legend.png)
