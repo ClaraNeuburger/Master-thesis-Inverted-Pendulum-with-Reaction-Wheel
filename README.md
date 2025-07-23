@@ -103,6 +103,9 @@ The wiring diagram of the inverted pendulum with reaction wheel is illustrated b
 ## 3D design and printing
 The prototype was mainly 3D-printed except for the pendulum rod made of carbon fiber (30cm long hollow cylinder of outer radius 7.5mm). All other components were designed on Fusion360 and 3D-printed in PLA. The CAD files are available in the folder *'Fusion360'*.
 
+A short readme is available in this folder and explains the role of each component and how they are connected to each other. 
+
+The final prototype is shown bellow.
 <p align="center">
   <img src="Images/Final prototype.png" width="800px">
 </p>
