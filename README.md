@@ -97,6 +97,6 @@ The ESCON 50/5 can automatically recover the motor’s speed and send it via a p
 ## Wiring diagram
 The wiring diagram of the inverted pendulum with reaction wheel is illustrated bellow.
 <p align="center">
-  <img src="Images/Wiring diagram.png" width="650px">
+  <img src="Images/Wiring diagram.png" width="800px">
 </p>
 ## 3D design and printing
