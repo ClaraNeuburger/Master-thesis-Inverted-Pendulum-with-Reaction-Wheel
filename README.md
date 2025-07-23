@@ -28,3 +28,18 @@ The codes implemented on the microcontroller for controlling the pendulum are av
 - File *main.ino* conatins the live script for controlling the pendulum
 
 ## Motor
+The motor should be as lightweight as possible while also providing maximum torque. A Maxon brushless DC motor was selected: the EC 45 Flat. 
+<p align="center">
+  <img src="Images/EC45 Flat.jpg" width="250px">
+</p>
+
+! Add table of motor properties 
+
+## Driver
+
+## Sensors
+### Inertial Measurement Unit (IMU)
+### Hall effect sensors
+
+
+## 3D design and printing
