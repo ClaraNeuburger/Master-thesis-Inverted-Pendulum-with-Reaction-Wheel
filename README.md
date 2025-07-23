@@ -42,13 +42,25 @@ The properties of the motor are shown in the table bellow.
 ## Driver
 In order to control the motor using the microcontroller, a driver needs to be used. A driver serves as the interface between the motor and the microcontroller to control the motor’s speed, direction or other parameter.
 
-The ESCON 50/5 from Maxon compatible with the motor was chosen. It has 3 integrated operating modes: 
+The ESCON 50/5 from Maxon compatible with the motor was chosen. 
+<p align="center">
+  <img src="Images/ESCON.png" width="250px">
+</p>
+
+It has 3 integrated operating modes: 
 
  - Current controller which compares the actual motor current with the applied set value and dynamically adjusts it in case of deviation
  - Closed loop speed controller that compares the actual speed with the applied set value and dynamically adjusts it
  - Open loop speed controller that feeds the motor with a voltage proportional to theset value; the load changes are compensated with IxR methodology
 
 The properties of the driver are shown in the table bellow. 
+<p align="center">
+  <img src="Images/ESCON tab.png" width="250px">
+</p>
+
+The ESCON 50/5 is a programmable driver: on a software developed by Maxon, the user can enter the motor's propreties and select one of the 3 operating modes to control the motor. 
+
+The following process was followed: 
 
 ## Sensors
 ### Inertial Measurement Unit (IMU)
