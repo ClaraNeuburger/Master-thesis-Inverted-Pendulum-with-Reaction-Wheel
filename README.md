@@ -55,22 +55,23 @@ It has 3 integrated operating modes:
 
 The properties of the driver are shown in the table bellow. 
 <p align="center">
-  <img src="Images/ESCON tab.png" width="450px">
+  <img src="Images/ESCON tab.png" width="350px">
 </p>
 
 The ESCON 50/5 is a programmable driver: on a software developed by Maxon, the user can enter the motor's propreties and select one of the 3 operating modes to control the motor. 
 
 The following process was followed when laucnhing the start up wizard tool: 
-- Motor type: Select maxon EC motor
-- Motor data: Enter motor speed constant (285 rpm/V), thermal time constant winding (17.7s) and number of pole pairs (8)
-- System data: Enter desired maximum speed (5240 rpm but you can increase if needed), nominal current (2.33 A) and max output current limit
-- Detection of rotor position: Select digital Hall sensors with Maxon Hall sensor polarity
-- Speed sensor: Select available Hall effect sensor
-- Mode of operation: Select current controller
-- Enable: Select your desired digital input with high active. In this situation, a switch was placed between digital Input 2 and the +5Vdc of the ESCON to easily enable the motor
-- Set value: Select analog set value, with the analog input connected to the DAC pin of the microcontroller (here analog input 1). Since the Arduino DAC output is able to send voltages from 0.55 V to 2.75 V, the current sent at 0.55 V is set at -2.33 A and the current sent at 2.75 V is set at 2.33 A.
+- **Motor type**: Select maxon EC motor
+- **Motor data**: Enter motor speed constant (285 rpm/V), thermal time constant winding (17.7s) and number of pole pairs (8)
+- **System data**: Enter desired maximum speed (5240 rpm but you can increase if needed), nominal current (2.33 A) and max output current limit
+- **Detection of rotor position**: Select digital Hall sensors with Maxon Hall sensor polarity
+- **Speed sensor**: Select available Hall effect sensor
+- **Mode of operation**: Select current controller
+- **Enable**: Select your desired digital input with high active. In this situation, a switch was placed between digital Input 2 and the +5Vdc of the ESCON to easily enable the motor
+- **Set value**: Select analog set value, with the analog input connected to the DAC pin of the microcontroller (here analog input 1). Since the Arduino DAC output is able to send voltages from 0.55 V to 2.75 V, the current sent at 0.55 V is set at -2.33 A and the current sent at 2.75 V is set at 2.33 A.
 - ADD SPEED RAMP, OFFSET AND MINIMAL SPEED (need to check the computer for that)
 
+A voltage of at least 22.79 V is required to power the ESCON 50/5 driving the EC45 Flat and a power supply of 24V has been selected. 
 
 ## Sensors
 ### Inertial Measurement Unit (IMU)
