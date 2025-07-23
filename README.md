@@ -1,7 +1,7 @@
 # Inverted Pendulum Actuated by a Reaction Wheel
 
 This github repository contains the codes (Arduino and Matlab) and CAD files used to create a 2D inverted pendulum actuated by a reaction wheel. 
-This project was carried out to support the teaching of control engineering at the SAAS (Service d’Automatique et d’Analyse des Systèmes, https://saas.ulb.ac.be/) laboratory at ULB. The resulting Master thesis text is also available in this repository under 'Master Thesis Text.pdf'
+This project was carried out to support the teaching of control engineering at the SAAS (Service d’Automatique et d’Analyse des Systèmes, https://saas.ulb.ac.be/) laboratory at ULB. The resulting Master thesis text is also available in this repository under *'Master Thesis Text.pdf'*.
 
 ## Overview
 It consists of a rigid pendulum rod placed on a surface which will be stabilized in the upright position using a motor coupled to a wheel placed on top of the pendulum as shown bellow. 
@@ -75,6 +75,14 @@ A voltage of at least 22.79 V is required to power the ESCON 50/5 driving the EC
 
 ## Sensors
 ### Inertial Measurement Unit (IMU)
+To recover the pendulum angle and angular speed an inertial measurement unit can be used. It consists of a combination of accelerometer and gyroscope that allows to measure and report the angular rate of a structure. The accelerometer measures changes of acceleration in the sensor with respect to the earth while the gyroscope measures changing angular motion. The chosen IMU is the MPU6050 linked to an I2C bus for easier connection with the Arduino microcontroller (https://be.farnell.com/fr-BE/dfrobot/sen0142/6-dof-sensor-arduino-board/dp/3769961)
+
+<p align="center">
+  <img src="Images/IMU.png" width="250px">
+</p>
+
+It has a 3 axis gyroscope and accelerometer, allowing to recover the angle and acceleration in the 3 planes(x,y,z). Using the MPU6050 Arduino library from i2cdevlib, it is
+possible to retrieve the Euler angles of the pendulum with the function **mpu.dmpGetEuler()**. By filtering the angle value and doing a derivative, the pendulum angular velocity can also be determined.
 ### Hall effect sensors
 
 
