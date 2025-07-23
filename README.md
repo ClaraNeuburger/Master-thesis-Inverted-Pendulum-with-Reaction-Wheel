@@ -15,7 +15,7 @@ A video of the working prototype is available in the following link: https://www
 The following sections provide a detailed description of the prototype development process. They cover the design and fabrication of 3D-printed components, the selection of the motor and its integration with the driver, the choice and programming of the microcontroller, the implementation of the control strategy (using an LQR approach), and finally, the verification of the control methods through experimental testing and computation of robustness margins.
 
 ## Microcontroller
-The Arduino Due was selected as the development board for this project due to its higher computational performance and advanced features. Its 84 MHz clock speed enables faster signal processing and more responsive control, which are essential for real-time applications. Unlike the Arduino Uno, the Due provides a DAC (Digital-to-Analog Converter) for smoother analog outputs, as well as a larger SRAM (96 kB), allowing efficient handling of complex computations and storage of runtime variables.
+The Arduino Due was selected as the development board for this project due to its higher computational performance and advanced features. Its 84 MHz clock speed enables faster signal processing, essential for real-time applications. The Due provides a DAC (Digital-to-Analog Converter) for smoother analog outputs, as well as a larger SRAM (96 kB), allowing efficient handling of complex computations and storage of runtime variables.
 
 <p align="center">
   <img src="Images/Arduino.png" width="250px">
@@ -23,3 +23,8 @@ The Arduino Due was selected as the development board for this project due to it
 
 The codes implemented on the microcontroller for controlling the pendulum are available in the folder 'Arduino'. 
 
+- Scripts starting with *MPU6050* handle the data received from the Inertial Measurement Unit (IMU) and taken from: https://github.com/jrowberg/i2cdevlib
+- File *Variables.ino* defines all variables used for the real time control of the pendulum
+- File *main.ino* conatins the live script for controlling the pendulum
+
+## Motor
