@@ -71,6 +71,7 @@ The following process was followed when laucnhing the start up wizard tool:
 - **Enable**: Select your desired digital input with high active. In this situation, a switch was placed between digital Input 2 and the +5Vdc of the ESCON to easily enable the motor
 - **Set value**: Select analog set value, with the analog input connected to the DAC pin of the microcontroller (here analog input 1). Since the Arduino DAC output is able to send voltages from 0.55 V to 2.75 V, the current sent at 0.55 V is set at -2.33 A and the current sent at 2.75 V is set at 2.33 A.
 - ADD SPEED RAMP, OFFSET AND MINIMAL SPEED (need to check the computer for that)
+- Add Analog output as well for understanding hall effect sensor outpur
 
 A voltage of at least 22.79 V is required to power the ESCON 50/5 driving the EC45 Flat and a power supply of 24V has been selected. 
 
@@ -88,6 +89,14 @@ possible to retrieve the Euler angles of the pendulum with the function **mpu.dm
 
 Link for the MPU6050: https://be.farnell.com/fr-BE/dfrobot/sen0142/6-dof-sensor-arduino-board/dp/3769961
 ### Hall effect sensors
+To measure the motor’s properties, the EC 45 Flat comes with integrated Hall sensors. Hall sensors detect the magnetic field of a control magnet which is attached to the shaft.
+The sensors are arranged between the stator teeth and monitor directly the poles of the magnetic ring with offsets of 120°. The Hall sensors evaluate the direction of the magnetic field and generate a high output (5V) if the north pole of the control magnet is close and a low output (GND) if the south pole is close.
 
+The ESCON 50/5 can automatically recover the motor’s speed and send it via a programmable analog output. The Arduino Due board can recover an analog input range of 0 to 3.3V and the ESCON drier is programmed to send a voltage of 0 V for a speed of -5240 rpm and 3.3 V for a speed ot 5240 rpm.
 
+## Wiring diagram
+The wiring diagram of the inverted pendulum with reaction wheel is illustrated bellow.
+<p align="center">
+  <img src="Images/Wiring diagram.png" width="450px">
+</p>
 ## 3D design and printing
