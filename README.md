@@ -39,6 +39,7 @@ The properties of the motor are shown in the table bellow.
   <img src="Images/EC45Flat.png" width="250px">
 </p>
 
+Link for the motor: https://befr.rs-online.com/web/p/dc-motors/0495063
 ## Driver
 In order to control the motor using the microcontroller, a driver needs to be used. A driver serves as the interface between the motor and the microcontroller to control the motor’s speed, direction or other parameter.
 
@@ -73,9 +74,10 @@ The following process was followed when laucnhing the start up wizard tool:
 
 A voltage of at least 22.79 V is required to power the ESCON 50/5 driving the EC45 Flat and a power supply of 24V has been selected. 
 
+Link for the driver: https://www.maxongroup.fr/maxon/view/product/control/4-Q-Servokontroller/409510
 ## Sensors
 ### Inertial Measurement Unit (IMU)
-To recover the pendulum angle and angular speed an inertial measurement unit can be used. It consists of a combination of accelerometer and gyroscope that allows to measure and report the angular rate of a structure. The accelerometer measures changes of acceleration in the sensor with respect to the earth while the gyroscope measures changing angular motion. The chosen IMU is the MPU6050 linked to an I2C bus for easier connection with the Arduino microcontroller (https://be.farnell.com/fr-BE/dfrobot/sen0142/6-dof-sensor-arduino-board/dp/3769961)
+To recover the pendulum angle and angular speed an inertial measurement unit can be used. It consists of a combination of accelerometer and gyroscope that allows to measure and report the angular rate of a structure. The accelerometer measures changes of acceleration in the sensor with respect to the earth while the gyroscope measures changing angular motion. The chosen IMU is the MPU6050 linked to an I2C bus for easier connection with the Arduino microcontroller 
 
 <p align="center">
   <img src="Images/IMU.png" width="250px">
@@ -83,6 +85,8 @@ To recover the pendulum angle and angular speed an inertial measurement unit can
 
 It has a 3 axis gyroscope and accelerometer, allowing to recover the angle and acceleration in the 3 planes(x,y,z). Using the MPU6050 Arduino library from i2cdevlib, it is
 possible to retrieve the Euler angles of the pendulum with the function **mpu.dmpGetEuler()**. By filtering the angle value and doing a derivative, the pendulum angular velocity can also be determined.
+
+Link for the MPU6050: https://be.farnell.com/fr-BE/dfrobot/sen0142/6-dof-sensor-arduino-board/dp/3769961
 ### Hall effect sensors
 
 
