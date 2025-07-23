@@ -36,7 +36,7 @@ The motor should be as lightweight as possible while also providing maximum torq
 This type of motor offers an attractive price to performance ratio, a high torques due to external multipole rotor, and a flat and light design meant for limited space. 
 The properties of the motor are shown in the table bellow.
 <p align="center">
-  <img src="Images/EC45Flat.png" width="350px">
+  <img src="Images/EC45Flat.png" width="250px">
 </p>
 
 ## Driver
@@ -55,7 +55,7 @@ It has 3 integrated operating modes:
 
 The properties of the driver are shown in the table bellow. 
 <p align="center">
-  <img src="Images/ESCON tab.png" width="350px">
+  <img src="Images/ESCON tab.png" width="450px">
 </p>
 
 The ESCON 50/5 is a programmable driver: on a software developed by Maxon, the user can enter the motor's propreties and select one of the 3 operating modes to control the motor. 
