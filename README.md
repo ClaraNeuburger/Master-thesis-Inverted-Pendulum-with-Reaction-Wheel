@@ -109,3 +109,17 @@ The final prototype is shown bellow.
 <p align="center">
   <img src="Images/Final prototype.png" width="800px">
 </p>
+
+## Matlab code for controlling the pendulum
+A series of Matlab code and simulations is available in the folder *Matlab* of this Github. They were developed to establish the control laws to control the pendulum. 
+
+Firstly, a mathematical model of the pendulum was developed and verified experimentally. This is developed in the section *'Mathematical model'* of the Master thesis text.  The code *'model_verif.m'* is used to superpose the experimental results to the simulation results computed by using Simulink file *'Verification_simulink.slx'*. The pendululm was placed upside down, with a current command of 1A during 1 second.
+
+Codes *'Identification_TF.m'*, *'cost_TF.m'* and *'verification.m'* are used to identify and verify the transfer function of the motor (speed response to a current step input).
+
+
+There are 2 controllers tested: a cascade PID controller and an Linear Quadratic Regulator. The LQR is tuned and the gain is computed using the code *'LQR.m'*, it can then be verified using the simulation *'RegulatorTesting.slx'*.
+
+The cascade PID is tuned using code *'CascadePID.m'* and tested using simulation *'PIDcascadeTuning.slx'*.
+
+Only the LQR worked experimentally, more details are available in the written master thesis.
