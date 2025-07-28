@@ -7,17 +7,17 @@ The support structure serves as base to receive the microcontroller (Arduino) an
 
 On this support structure are placed 2 'base structure' shown bellow. One is designed with a hole on top to allow the cables to directly reach the top of the driver for connection. 
 <p align="center">
-  <img src="../Images/base support.pdf" width="350px">
+  <img src="../Images/base support.png" width="350px">
 </p>
 
 <p align="center">
-  <img src="Images/base support with wire holder.pdf" width="350px">
+  <img src="Images/base support with wire holder.png" width="350px">
 </p>
 
 
 Between those 2 bases are places ball bearings (add dimensions) as well as a rectangular holder in which the pendulum is placed and secured with screws. 
 <p align="center">
-  <img src="Images/middle base structure.pdf" width="350px">
+  <img src="Images/middle base structure.png" width="350px">
 </p>
 
 
