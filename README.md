@@ -12,7 +12,7 @@ It consists of a rigid pendulum rod placed on a surface which will be stabilized
 
 A video of the working prototype is available in the following link: https://www.youtube.com/shorts/VWwU4DCKMfk
 
-The following sections provide a detailed description of the prototype development process. They cover the design and fabrication of 3D-printed components, the selection of the motor and its integration with the driver, the choice and programming of the microcontroller, the implementation of the control strategy (using an LQR approach), and finally, the verification of the control methods through experimental testing and computation of robustness margins.
+The following sections provide a detailed description of the prototype development process. They cover the design and fabrication of 3D-printed components, the selection of the motor and its integration with the driver and the choice and programming of the microcontroller.
 
 ## Microcontroller
 The Arduino Due was selected as the development board for this project due to its higher computational performance and advanced features. Its 84 MHz clock speed enables faster signal processing, essential for real-time applications. The Due provides a DAC (Digital-to-Analog Converter) for smoother analog outputs, as well as a larger SRAM (96 kB), allowing efficient handling of complex computations and storage of runtime variables.
