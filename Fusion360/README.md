@@ -11,23 +11,23 @@ On this support structure are placed 2 'base structure' shown bellow. One is des
 </p>
 
 <p align="center">
-  <img src="Images/base support with wire holder.png" width="350px">
+  <img src="../Images/base support with wire holder.png" width="350px">
 </p>
 
 
 Between those 2 bases are places ball bearings (add dimensions) as well as a rectangular holder in which the pendulum is placed and secured with screws. 
 <p align="center">
-  <img src="Images/middle base structure.png" width="350px">
+  <img src="../Images/middle base structure.png" width="350px">
 </p>
 
 
 On top of the pendulum is placed the upper structure meant to link with the motor and the inertial measurement unit.
 <p align="center">
-  <img src="Images/Upper structure with motor.png" width="350px">
+  <img src="../Images/Upper structure with motor.png" width="350px">
 </p>
 
  The reaction wheel is linked to the motor and holes are designed to add screws and nuts to increase its inertia. 
  
 <p align="center">
-  <img src="Images/Full prototype.png" width="350px">
+  <img src="../Images/Full prototype.png" width="350px">
 </p>
